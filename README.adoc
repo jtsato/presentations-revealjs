@@ -1,2 +1,2 @@
 === Presentations
-* https://xxx.github.io/output/mutation-testing.html[Mutation Testing] 
+* https://xxx.github.io/mutation-testing.html[Mutation Testing] 
