@@ -6,6 +6,6 @@ services:
       - "9000:8000"
     volumes:
       - ./slides/:/opt/slides/
-      - ./docs/:/opt/docs/
+      - ./docs/:/opt/output/
     environment:
       INDEX: mutation-testing.html

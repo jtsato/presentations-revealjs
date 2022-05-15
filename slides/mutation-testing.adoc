@@ -9,10 +9,20 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-==  Mutation Testing (propósito)
-* Para garantir a qualidade dos testes unitários aplicamos o teste de mutação fazendo uso do Stryker.NET.
+== Código ruim:
+* Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
+* Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
 
-== O que é Mutation Testing? (teste de mutação)
+== Como podemos melhorar o código?
+* Previsibilidade arquitetural.
+* Maturidade em processo (papéis, regras e procedimentos são bem definidos).
+* Práticas de refactoring, code review, pair e mob programming.
+* Testes com qualidade.
+
+== !
+Para garantir a qualidade dos testes aplicamos o teste de mutação.
+
+== O que é teste de mutação?
 * É o teste do teste.
 * Afere, se quando a implementação é alterada, algum teste falha. Se falhar significa que o teste está bem escrito, senão significa que o teste está ruim, incompleto ou a própria implemetação está ruim.
 * As simulações dessas alterações da implementação é feita pela própria ferramenta, criando outras versões chamadas mutantes.
@@ -23,34 +33,22 @@ image::thinking.png[]
 == Mostre-me o código!
 image::show-me.png[]
 
-== Mutation Testing em outras linguagens
+== Teste de mutação em outras linguagens
 * link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
 * link:https://pitest.org[Java: PIT aka pitest]
 * link:https://mutmut.readthedocs.io/en/latest[Python: mutmut]
+* link:https://github.com/zimmski/go-mutesting[Go: mutesting]
 
-== Aprendemos que o Mutation Testing:
+== Teste de mutação:
 * É usado para criar novos testes e avaliar a qualidade dos testes existentes;
 * Te faz um desenvolvedor melhor;
 * Pode simplificar a implementação;
 * Te ajuda a encontrar possibilidades não validadas;
-* Eu ouso dizer que é mais importante do que a própria cobertura de código;
+* Na minha opnião é mais importante do que a própria cobertura de código;
 
 == Lembre-se:
-- O feito é melhor do que perfeito. (time to market)
-- O muito barato se torna muito caro.
-- Código ruim afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
+- Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
 - Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
 
-== Lembre-se também:
-- Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
-- Sempre evoluir e experimentar coisas novas.
-
-== Next 🎯
-* Clean architecture
-* Test containers
-* GitOps
-* Extreme programming aka XP: Pair e mob programming, refactoring, etc..
-* Full Cycle Developer
-
-== Fim
-image::the-end.png[]
+== Obrigado!
+image::the-end.png[width="600"]
