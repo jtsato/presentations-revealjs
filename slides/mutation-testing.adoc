@@ -1,4 +1,4 @@
-﻿= Geek Tuesday
+﻿= Terça Geek
 :backend: revealjs
 :revealjs_history: true
 :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
@@ -9,23 +9,23 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-== Código ruim:
+== Código ruim: 😢
 * Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
 * Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
 
-== Como podemos melhorar o código?
+== Como podemos melhorar o código? 🚀
 * Previsibilidade arquitetural.
 * Maturidade em processo (papéis, regras e procedimentos são bem definidos).
 * Práticas de refactoring, code review, pair e mob programming.
 * Testes com qualidade.
 
-== !
-Para garantir a qualidade dos testes aplicamos o teste de mutação.
+== 💡
+Para garantir a qualidade dos testes aplicamos o teste de mutação fazendo uso do Stryker.NET.
 
-== O que é teste de mutação?
+== O que é teste de mutação? 🤔
 * É o teste do teste.
-* Afere, se quando a implementação é alterada, algum teste falha. Se falhar significa que o teste está bem escrito, senão significa que o teste está ruim, incompleto ou a própria implemetação está ruim.
-* As simulações dessas alterações da implementação é feita pela própria ferramenta, criando outras versões chamadas mutantes.
+* Afere, se quando a implementação é alterada, algum teste falha (se falhar 👍🏼).
+* A alteração da implementação é feita pela ferramenta de mutação, criando outras versões (mutantes).
 
 == Está claro?
 image::thinking.png[]
@@ -33,22 +33,22 @@ image::thinking.png[]
 == Mostre-me o código!
 image::show-me.png[]
 
-== Teste de mutação em outras linguagens
+== Teste de mutação em outras linguagens 👩🏽‍💻👨🏽‍💻
 * link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
 * link:https://pitest.org[Java: PIT aka pitest]
 * link:https://mutmut.readthedocs.io/en/latest[Python: mutmut]
 * link:https://github.com/zimmski/go-mutesting[Go: mutesting]
 
-== Teste de mutação:
+== Teste de mutação: 👨🏽‍🏫
 * É usado para criar novos testes e avaliar a qualidade dos testes existentes;
 * Te faz um desenvolvedor melhor;
 * Pode simplificar a implementação;
 * Te ajuda a encontrar possibilidades não validadas;
 * Na minha opnião é mais importante do que a própria cobertura de código;
 
-== Lembre-se:
+== Lembre-se: ✍️
 - Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
 - Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
 
-== Obrigado!
-image::the-end.png[width="600"]
+== Obrigado! 😀
+image::the-end.png[height="540"]
