@@ -76,7 +76,7 @@ Teste de mutação em outras linguagens
 * Te faz um desenvolvedor melhor;
 * Pode simplificar a implementação;
 * Te ajuda a encontrar possibilidades não validadas;
-* Na minha opnião é mais importante do que a própria cobertura de código;
+* Na minha opinião é mais importante do que a própria cobertura de código;
 
 [NOTE.speaker]
 --
