@@ -1,0 +1,55 @@
+﻿:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== Teste de mutação
+image::stryker-man.png[height="540"]
+
+== Código ruim
+* Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
+* Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
+
+== O que podemos fazer ?
+* Previsibilidade arquitetural.
+* Maturidade em processo (papéis, regras e procedimentos são bem definidos).
+* Práticas de refactoring, code review, pair e mob programming.
+* Testes com qualidade.
+
+== Teste de mutação ou Mutation Testing
+
+== O que é teste de mutação?
+* É o teste do teste.
+* Afere, se quando a implementação é alterada, algum teste falha (se falhar 👍🏼).
+* A alteração da implementação é feita pela ferramenta de mutação, criando outras versões (mutantes).
+
+== !
+image::thinking.png[]
+
+== !
+image::show-me.png[]
+
+== 👩🏽‍💻👨🏽‍💻
+* link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
+* link:https://pitest.org[Java: PIT aka pitest]
+* link:https://mutmut.readthedocs.io/en/latest[Python: mutmut]
+* link:https://github.com/zimmski/go-mutesting[Go: mutesting]
+
+== 👨🏽‍🏫
+* É usado para criar novos testes e avaliar a qualidade dos testes existentes;
+* Te faz um desenvolvedor melhor;
+* Pode simplificar a implementação;
+* Te ajuda a encontrar possibilidades não validadas;
+* Na minha opinião é mais importante do que a própria cobertura de código;
+
+== ✍️
+- Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
+- Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
+
+== !
+image::the-end.png[height="540"]
