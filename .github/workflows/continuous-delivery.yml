@@ -43,7 +43,7 @@ jobs:
 
       - name: Setup HttpPie
         run: |
-          snap install httpie
+          sudo snap install httpie
 
       - name: Generate flag file
         run: |
