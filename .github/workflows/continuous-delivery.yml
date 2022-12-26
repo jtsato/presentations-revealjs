@@ -74,7 +74,7 @@ jobs:
       - name: Delete flag files
         run: |
           rm ./slides/flag.adoc
-          rm ./output/flag.html
+          rm ./docs/flag.html
 
       - name: Check for changes
         run: |
