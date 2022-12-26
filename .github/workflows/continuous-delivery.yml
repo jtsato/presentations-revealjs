@@ -36,11 +36,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
       - name: Setup HttpPie
         run: |
           sudo snap install httpie
@@ -56,12 +51,10 @@ jobs:
       - name: Wait for AsciiDoctor Container
         shell: bash
         run: |
-          http --version
-          http -h GET http://localhost:9001/output/flag.html
           i=1
           while [[ $i -lt 16 ]] 
           do
-              HTTP_STATUS=$(http -h GET http://localhost:9001/output/flag.html 2>&1 | grep HTTP/ | head -1 | cut -d ' ' -f 2)
+              HTTP_STATUS=$(http -h GET http://localhost:9000/output/flag.html 2>&1 | grep HTTP/ | head -1 | cut -d ' ' -f 2)
               if [[ $HTTP_STATUS -eq 200 ]]
                   then
                   echo "It is alive!"
