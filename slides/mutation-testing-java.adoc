@@ -28,7 +28,7 @@ image::pitest.png[height="304"]
 * Como podemos garantir que existirá uma conferência dos resultados retornados de uma função/método ? 
 
 == !
-`*_Se o teste verifica se a implementação está de acordo com o esperado, o que verifica se o teste está de acordo com o que deve ser testado ?_*`
+`_Se o teste verifica se a implementação está de acordo com o esperado, o que verifica se o teste está de acordo com o que deve ser testado ?_`
 
 == Teste de mutação ou Mutation Testing
 
