@@ -9,7 +9,7 @@
 :customcss: customcss.css
 
 == Teste de mutação
-image::stryker-man.png[height="540"]
+image::pitest.png[height="304"]
 
 == Código ruim
 * Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
@@ -29,7 +29,7 @@ image::stryker-man.png[height="540"]
 * A alteração da implementação é feita pela ferramenta de mutação, criando outras versões (mutantes).
 
 == !
-image::thinking.png[]
+image::pitest.png[height="304"]
 
 == !
 image::show-me.png[]
