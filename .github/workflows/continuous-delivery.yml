@@ -1,0 +1,134 @@
+# Workflow for deploying static content to GitHub Pages
+name: Build & deploy to GitHub Pages
+
+on:
+  # Runs on pushes targeting the main branch
+  push:
+    branches: ['main']
+    paths:
+      - 'slides/**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: self-hosted
+    steps:
+      - name: Setup docker-compose [1.29.2]
+        run: |
+          sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+          docker-compose version
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Setup HttpPie
+        run: |
+          python -m pip install --upgrade pip wheel
+          python -m pip install httpie
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Generate flag file
+        run: |
+          echo "= Week 99" > ./slides/flag.adoc
+
+      - name: Start AsciiDoctor Container
+        run: |
+          docker-compose -f docker-compose.yml up -d
+
+      - name: Wait for AsciiDoctor Container
+        shell: bash
+        run: |
+          i=1
+          while [[ $i -lt 16 ]] 
+          do
+              HTTP_STATUS=$(http -h GET http://localhost:9001/output/flag.html 2>&1 | grep HTTP/ | head -1 | cut -d ' ' -f 2)
+              if [[ $HTTP_STATUS -eq 200 ]]
+                  then
+                  echo "It is alive!"
+                  sleep 1
+                  break
+              fi
+              if [[ $i -eq 15 ]]
+                  then
+                  echo "It is dead!"
+                  exit 1
+              fi
+              echo "$i Waiting for AsciiDoctor Container to start..."
+              sleep 1
+              ((i++))
+          done
+
+      - name: Delete flag files
+        run: |
+          rm ./slides/flag.adoc
+          rm ./output/flag.html
+
+      - name: Check for changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "SHOULD_I_COMMIT=Yes" >> $GITHUB_ENV
+          else
+            echo "SHOULD_I_COMMIT=No" >> $GITHUB_ENV
+          fi
+
+      - name: Build Commit Message
+        if: ${{ env.SHOULD_I_COMMIT == 'Yes' }}
+        run: |
+          echo "COMMIT_MESSAGE=Creating GitHub Pages Site" >> $GITHUB_ENV
+
+      - name: Commit the changes
+        if: ${{ env.SHOULD_I_COMMIT == 'Yes' }}
+        run: |
+          git config pull.rebase false        
+          git config --local user.email "action@github.com"
+          git config --local user.name "Continuous Delivery"
+          git add --all
+          git commit -m "${{ env.COMMIT_MESSAGE }}"
+          git pull origin ${GITHUB_REF##*/}
+
+      - name: Push the changes
+        if: ${{ env.SHOULD_I_COMMIT == 'Yes' }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+
+      - name: Environment Teardown
+        if: always()
+        run: |
+          docker-compose -f docker-compose.yml down

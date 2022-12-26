@@ -1,2 +1,3 @@
 === Presentations
-* https://jtsato.github.io/presentations-revealjs/mutation-testing-netcore.html[Mutation Testing] 
+* https://jtsato.github.io/presentations-revealjs/mutation-testing-netcore.html[Mutation Testing]
+* https://jtsato.github.io/presentations-revealjs/mutation-testing-java.html[Mutation Testing]
