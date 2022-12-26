@@ -41,13 +41,13 @@ jobs:
           python -m pip install httpie
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Generate flag file
         run: |
-          echo "= Week 99" > ./slides/flag.adoc
+          echo "= These Are Not the Droids You Are Looking For" > ./slides/flag.adoc
 
       - name: Start AsciiDoctor Container
         run: |
