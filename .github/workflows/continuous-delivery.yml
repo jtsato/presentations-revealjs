@@ -61,6 +61,10 @@ jobs:
           while [[ $i -lt 16 ]] 
           do
               echo "Checking for AsciiDoctor Container... $i"
+              grep --version
+              head --version
+              cut --version
+              http --version
               http -h GET http://localhost:9001/output/flag.html 2>&1 | grep HTTP/ | head -1 | cut -d ' ' -f 2
               HTTP_STATUS=$(http -h GET http://localhost:9001/output/flag.html 2>&1 | grep HTTP/ | head -1 | cut -d ' ' -f 2)
               if [[ $HTTP_STATUS -eq 200 ]]
