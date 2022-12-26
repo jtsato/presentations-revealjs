@@ -57,6 +57,7 @@ jobs:
         shell: bash
         run: |
           http --version
+          http -h GET http://localhost:9001/output/flag.html
           i=1
           while [[ $i -lt 16 ]] 
           do
