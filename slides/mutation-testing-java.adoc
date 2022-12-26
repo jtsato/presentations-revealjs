@@ -14,12 +14,21 @@ image::pitest.png[height="304"]
 == Código ruim
 * Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
 * Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
+* Atrasa o desenvolvimento de novas funcionalidades.
 
 == O que podemos fazer ?
 * Previsibilidade arquitetural.
 * Maturidade em processo (papéis, regras e procedimentos são bem definidos).
 * Práticas de refactoring, code review, pair e mob programming.
-* Testes com qualidade.
+* Testes de qualidade.
+
+== O Problema
+* Testes automatizados são essenciais nos dias de hoje. 
+* Mas existe uma garantia que esses testes estão bem escritos ? 
+* Como podemos garantir que existirá uma conferência dos resultados retornados de uma função/método ? 
+
+== !
+`*_Se o teste verifica se a implementação está de acordo com o esperado, o que verifica se o teste está de acordo com o que deve ser testado ?_*`
 
 == Teste de mutação ou Mutation Testing
 
@@ -29,14 +38,14 @@ image::pitest.png[height="304"]
 * A alteração da implementação é feita pela ferramenta de mutação, criando outras versões (mutantes).
 
 == !
-image::pitest.png[height="304"]
+image::thinking.png[]
 
 == !
 image::show-me.png[]
 
 == 👩🏽‍💻👨🏽‍💻
-* link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
 * link:https://pitest.org[Java: PIT aka pitest]
+* link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
 * link:https://mutmut.readthedocs.io/en/latest[Python: mutmut]
 * link:https://github.com/zimmski/go-mutesting[Go: mutesting]
 
