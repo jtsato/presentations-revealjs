@@ -56,9 +56,5 @@ image::show-me.png[]
 * Te ajuda a encontrar possibilidades não validadas;
 * Na minha opinião é mais importante do que a própria cobertura de código;
 
-== ✍️
-- Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
-- Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
-
 == !
 image::the-end.png[height="540"]
