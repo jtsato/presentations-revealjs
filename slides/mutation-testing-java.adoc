@@ -9,7 +9,7 @@
 :customcss: customcss.css
 
 == Teste de mutação
-image::pitest.png[height="304"]
+image::pitest.png[height="152"]
 
 == Código ruim
 * Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
