@@ -1,0 +1,106 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== Agile Software Development
+image::software-engineering-agile.png[height="482"]
+
+== Quem sou eu ?
+* Desenvolvedor de software desde 1999;
+* Arquiteto de software desde 2019;
+* Especialista em Java e .NET;
+* Cursando MBA em Arquitetura de Soluções;
+
+== Por que eu estou aqui ?
+* Compartilhar conhecimento;
+* Aprender coisas novas;
+* Ajudar as pessoas;
+
+== Senta, que lá vem a história
+* Praticar é a melhor forma de aprender (SQL);
+* Só sabemos o que é bom quando comparamos (Desenvolvedor vs suporte técnico);
+* Só desenvolver em inglês não é o suficiente (Company product finder);
+* Conhece-te a ti mesmo (Qual é a sua maneira de aprender ?);
+
+== 10 minutos 
+* link:https://vark-learn.com/questionario/[https://vark-learn.com/questionario/]
+
+== Auditivos
+* Explicações de conceitos
+* Gravação de aulas
+* Podcasts
+* Discussões em grupo
+* Palestras
+
+== Visual
+* Demonstração visuais
+* Diagramas
+* Flash cards
+* Mapas mentais
+* Gráficos
+* Vídeos
+
+== Leia e Escrita
+* Artigos
+* Livros
+* Manuais
+* Anotações
+* Resumos
+
+== Cinestésico
+* Experiencias práticas
+* Apresentações
+* Encenações
+* Simulações
+* Estímulos práticos e físicos
+
+== Por que precisamos de metodologias para o desenvolvimento de software ?
+
+== !
+* Ajudar a garantir que o projeto seja desenvolvido de maneira eficiente, eficaz e controlada.
+* Fornecer uma estrutura para a equipe de desenvolvimento, definindo as etapas a serem seguidas e os artefatos a serem produzidos.
+* Porque desenvolvimento de software é um processo complexo.
+
+== Quais são as vantagens ?
+
+== !
+* Melhora na comunicação (Alinhamento de expectativas);
+* Redução de riscos (Identificar e mitigar riscos));
+* Melhora na qualidade do software (Revisão e Testes);
+* Melhora na previsibilidade (Planejamento e Controle);
+* Melhora na produtividade (Melhor uso de recursos);
+
+== Metologia Kanban (Tabuleta)
+* A metodologia kanban se baseia em três princípios principais: visualização do trabalho, limitação do WIP (work in progress) e melhoria contínua. 
+
+== Kanban simples
+image::simple-kanban.png[height="156"]
+
+== Kanban extendido
+image::extended-kanban.png[height="249"]
+
+== Kanban Key Performance Indicators
+* Work in Progress (Total de tarefas em andamento);
+* Quantidade de Impedimentos (Quantidade de tarefas e fase);
+* Throughput (Tarefas concluídas por período);
+* Lead Time (Tempo de duração de uma tarefa);
+
+== Metodologia Waterfall
+* A metodologia Waterfall é uma metodologia de desenvolvimento de software sequencial, onde cada fase do ciclo de vida do software é executada em sequência, uma após a outra.
+
+== Exemplo
+image::waterfall.jpg[height="410"]
+
+== Linha do tempo
+image::methodologies-timeline.png[height="675"]
+
+== Metodologias ágeis
+
+== !
+image::the-end.png[height="540"]

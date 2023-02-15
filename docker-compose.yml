@@ -8,4 +8,4 @@ services:
       - ./slides/:/opt/slides/
       - ./docs/:/opt/output/
     environment:
-      INDEX: mutation-testing-java.html
+      INDEX: 01-intro.html
