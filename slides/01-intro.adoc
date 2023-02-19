@@ -119,6 +119,31 @@ image::extended-kanban.png[height="374"]
 == Metodologia Scrum (Jeff Sutherland)
 * A metodologia Scrum é uma abordagem ágil para desenvolvimento de software que utiliza uma série de cerimônias (ou eventos) para garantir a transparência, inspeção e adaptação durante o processo de desenvolvimento.
 
+== Artefatos do Scrum
+* Product Backlog
+* Sprint Backlog
+* Incremento do Produto (Entregas)
+* Burndown Chart (Velocidade do time)
+
+== Papéis do Scrum
+* A metodologia Scrum utiliza um conjunto de papéis para garantir que o processo seja executado de maneira eficiente.
+
+== !
+* Product Owner (Dono do Produto): é o responsável por definir o que deve ser desenvolvido e priorizar as funcionalidades do produto. É o responsável por manter o Product Backlog atualizado e priorizado.
+
+== !
+* Scrum Master (Mestre do Scrum): é o responsável por garantir que o processo de desenvolvimento esteja sendo seguido e que o time esteja funcionando de forma eficiente. É o responsável por remover impedimentos que estejam atrapalhando o time de desenvolvimento.
+
+== !
+* Time de Desenvolvimento: é a equipe de desenvolvimento que é responsável por implementar as funcionalidades do produto.
+
+== Cerimônias do Scrum
+* Sprint Planning (Planejamento da Sprint);
+* Daily Scrum (Reunião Diária);
+* Sprint Review (Revisão da Sprint);
+* Sprint Retrospective (Retrospectiva da Sprint);
+* Product Backlog Refinement (Refinamento do Product Backlog)
+
 == !
 * Sprint Planning (Planejamento da Sprint): é uma reunião que acontece no início de cada Sprint para definir os objetivos e o backlog do Sprint. A equipe de desenvolvimento se reúne com o Product Owner para selecionar as atividades que serão realizadas na Sprint, bem como para definir como elas serão implementadas.
 
@@ -132,25 +157,10 @@ image::extended-kanban.png[height="374"]
 * Sprint Retrospective (Retrospectiva da Sprint): é uma reunião que acontece no final de cada Sprint para revisar o processo de desenvolvimento e identificar oportunidades de melhoria. A equipe de desenvolvimento se reúne para refletir sobre o que funcionou bem e o que pode ser melhorado no processo de desenvolvimento, para ajustar e adaptar o processo no próximo Sprint.
 
 == !
-* Product Backlog Refinement (Refinamento do Product Backlog): é uma reunião que acontece regularmente para revisar e priorizar as funcionalidades do produto. A equipe de desenvolvimento se reúne com o Product Owner para revisar as funcionalidades do Product Backlog e priorizá-las.
+* Product Backlog Refinement (Refinamento do Product Backlog): O refinamento do Product Backlog é o ato de dividir e definir ainda mais os itens do Product Backlog em itens menores e mais precisos. Esta é uma atividade contínua para adicionar detalhes, como descrição, ordem e tamanho. Os atributos geralmente variam de acordo com o domínio de trabalho.
 
-== Papéis do Scrum
-* A metodologia Scrum também utiliza um conjunto de papéis e artefatos para garantir que o processo seja executado de maneira eficiente.
-
-== !
-* Product Owner (Dono do Produto): é o responsável por definir o que deve ser desenvolvido e priorizar as funcionalidades do produto. É o responsável por manter o Product Backlog atualizado e priorizado.
-
-== !
-* Scrum Master (Mestre do Scrum): é o responsável por garantir que o processo de desenvolvimento esteja sendo seguido e que o time esteja funcionando de forma eficiente. É o responsável por remover impedimentos que estejam atrapalhando o time de desenvolvimento.
-
-== !
-* Time de Desenvolvimento: é a equipe de desenvolvimento que é responsável por implementar as funcionalidades do produto.
-
-== Artefatos do Scrum
-* Product Backlog
-* Sprint Backlog
-* Incremento do Produto (Entregas)
-* Burndown Chart
+== Planning Poker
+* O Planning Poker é uma técnica de estimativa de esforço que utiliza cartas para que os membros da equipe possam estimar a complexidade de uma tarefa.
 
 == Metodologia XP (Kent Beck)
 * A metodologia XP é uma metodologia ágil, que visa a entrega de software de qualidade, com um ciclo de desenvolvimento curto e com um alto nível de satisfação do cliente.
@@ -181,33 +191,33 @@ image::extended-kanban.png[height="374"]
 ** Dê as boas-vindas aos requisitos em mudança, mesmo no final do desenvolvimento. Os processos ágeis aproveitam a mudança para a vantagem competitiva do cliente.
 
 == !
-* 3 Entrega frequente
+* 3. Entrega frequente
 ** Entregue o software funcionando com frequência, de algumas semanas a alguns meses, com preferência pela escala de tempo mais curta.
-* 4 Cooperação
+* 4. Cooperação
 ** Empresários e desenvolvedores devem trabalhar juntos diariamente ao longo do projeto.
 
 == !
-* 5 Autonomia e motivação
+* 5. Autonomia e motivação
 ** Construir projetos em torno de indivíduos motivados Dê a eles o ambiente e o suporte de que precisam e confie neles para fazer o trabalho.
-* 6 Melhor comunicação
+* 6. Melhor comunicação
 ** O método mais eficiente e eficaz de informação para e dentro de um desenvolvimento é a conversa face a face.
 
 == !
-* 7 Software funcionando
+* 7. Software funcionando
 ** O software funcionando é a principal medida de progresso.
-* 8 Ambientes de trabalho estáveis
+* 8. Ambientes de trabalho estáveis
 ** Processos ágeis promovem o desenvolvimento sustentável Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
 
 == !
-* 9 Garantia de qualidade
+* 9. Garantia de qualidade
 ** A atenção contínua à excelência técnica e ao bom design aumenta a agilidade.
-* 10 Simplicidade
+* 10. Simplicidade
 ** Simplicidade - a arte de maximizar a quantidade de trabalho não feito - é essencial.
 
 == !
-* 11 Equipes auto-organizadas
+* 11. Equipes auto-organizadas
 ** As melhores arquiteturas, requisitos e designs surgem de equipes auto-organizadas.
-* 12 Reflexão e ajuste
+* 12. Reflexão e ajuste
 ** Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e, em seguida, sintoniza e ajusta seu comportamento de acordo.
 
 == Metodologia Lean Software Development (Mary Poppendieck)
@@ -234,7 +244,7 @@ image::extended-kanban.png[height="374"]
 == !
 * Otimização do todo: o objetivo é otimizar o processo como um todo, em vez de otimizar partes individuais do processo. Isso ajuda a garantir que o processo como um todo seja eficiente e eficaz na entrega de valor ao cliente.
 
-== Práticas Ágeis (Gerenciamento, equipe e engenharia)
+== Práticas Ágeis (gerenciamento, equipe e engenharia)
 image::pratices.png[height="540"]
 
 == Informações adicionais
