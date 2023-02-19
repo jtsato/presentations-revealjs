@@ -8,7 +8,7 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-== Agile Software Development
+== Arquitetura de Software e Metodologias Ágeis
 
 == Quem sou eu ?
 * Desenvolvedor de software desde 1999;
@@ -29,6 +29,7 @@
 
 == 10 minutos 
 * link:https://vark-learn.com/questionario/[https://vark-learn.com/questionario/]
+** Neil Fleming's VARK Questionnaire
 
 == Auditivos
 * Explicações de conceitos
@@ -60,7 +61,7 @@
 * Estímulos práticos e físicos
 
 == Por que precisamos de metodologias para o desenvolvimento de software ?
-* The Golden Circle (Simon Sinek)
+* link::https://www.youtube.com/watch?v=POfQlg0V0Cc[The Golden Circle (Simon Sinek)]
 
 == !
 * Ajudar a garantir que o projeto seja desenvolvido de maneira eficiente, eficaz e controlada.
@@ -76,6 +77,12 @@
 * Melhora na previsibilidade (Planejamento e Controle);
 * Melhora na produtividade (Melhor uso de recursos);
 
+== Restrições
+image::restrictions.png[height="530"]
+
+== Linha do tempo
+image::methodologies-timeline.png[height="561"]
+
 == Metologia Kanban (Taiichi Ohno)
 * A metodologia kanban se baseia em três princípios principais: visualização do trabalho, limitação do WIP (work in progress) e melhoria contínua.
 
@@ -85,17 +92,14 @@ image::simple-kanban.png[height="312"]
 == Kanban extendido
 image::extended-kanban.png[height="374"]
 
-== Kanban Key Performance Indicators
+== Kanban Key Performance Indicators (KPIs)
 * Work in Progress (Total de tarefas em andamento);
 * Quantidade de Impedimentos (Quantidade de tarefas e fase);
 * Throughput (Tarefas concluídas por período);
 * Lead Time (Tempo de duração de uma tarefa);
 
-== Restrições
-image::restrictions.png[height="530"]
-
 == Metodologia Waterfall (Winston Royce)
-* A metodologia Waterfall é uma metodologia de desenvolvimento de software sequencial, onde cada fase do ciclo de vida do software é executada em sequência, uma após a outra 
+* A metodologia Waterfall é uma metodologia de desenvolvimento de software sequencial, onde cada fase do ciclo de vida do software é executada em sequência, uma após a outra.
 * Muito apoiada em processos e documentação.
 
 == Fases
@@ -113,22 +117,62 @@ image::restrictions.png[height="530"]
 * Atrasos na entrega do projeto;
 
 == Metodologia Scrum (Jeff Sutherland)
-* A metodologia Scrum é uma metodologia ágil, que visa a entrega de software de qualidade, com um ciclo de desenvolvimento curto e com um alto nível de satisfação do cliente.
+* A metodologia Scrum é uma abordagem ágil para desenvolvimento de software que utiliza uma série de cerimônias (ou eventos) para garantir a transparência, inspeção e adaptação durante o processo de desenvolvimento.
+
+== !
+* Sprint Planning (Planejamento da Sprint): é uma reunião que acontece no início de cada Sprint para definir os objetivos e o backlog do Sprint. A equipe de desenvolvimento se reúne com o Product Owner para selecionar as atividades que serão realizadas na Sprint, bem como para definir como elas serão implementadas.
+
+== !
+* Daily Scrum (Reunião Diária): é uma reunião diária de 15 minutos para que a equipe de desenvolvimento possa sincronizar suas atividades e planejar o trabalho para o dia. Durante a reunião, cada membro da equipe responde a três perguntas: o que eu fiz desde a última reunião diária, o que eu planejo fazer até a próxima reunião diária e quais são os impedimentos que estou enfrentando.
+
+== !
+* Sprint Review (Revisão da Sprint): é uma reunião que acontece no final de cada Sprint para revisar o trabalho concluído e receber feedback do Product Owner e do cliente. A equipe de desenvolvimento apresenta o trabalho concluído e o Product Owner avalia se as funcionalidades desenvolvidas atenderam às expectativas do cliente.
+
+== !
+* Sprint Retrospective (Retrospectiva da Sprint): é uma reunião que acontece no final de cada Sprint para revisar o processo de desenvolvimento e identificar oportunidades de melhoria. A equipe de desenvolvimento se reúne para refletir sobre o que funcionou bem e o que pode ser melhorado no processo de desenvolvimento, para ajustar e adaptar o processo no próximo Sprint.
+
+== !
+* Product Backlog Refinement (Refinamento do Product Backlog): é uma reunião que acontece regularmente para revisar e priorizar as funcionalidades do produto. A equipe de desenvolvimento se reúne com o Product Owner para revisar as funcionalidades do Product Backlog e priorizá-las.
+
+== Papéis do Scrum
+* A metodologia Scrum também utiliza um conjunto de papéis e artefatos para garantir que o processo seja executado de maneira eficiente.
+
+== !
+* Product Owner (Dono do Produto): é o responsável por definir o que deve ser desenvolvido e priorizar as funcionalidades do produto. É o responsável por manter o Product Backlog atualizado e priorizado.
+
+== !
+* Scrum Master (Mestre do Scrum): é o responsável por garantir que o processo de desenvolvimento esteja sendo seguido e que o time esteja funcionando de forma eficiente. É o responsável por remover impedimentos que estejam atrapalhando o time de desenvolvimento.
+
+== !
+* Time de Desenvolvimento: é a equipe de desenvolvimento que é responsável por implementar as funcionalidades do produto.
+
+== Artefatos do Scrum
+* Product Backlog
+* Sprint Backlog
+* Incremento do Produto (Entregas)
+* Burndown Chart
 
 == Metodologia XP (Kent Beck)
 * A metodologia XP é uma metodologia ágil, que visa a entrega de software de qualidade, com um ciclo de desenvolvimento curto e com um alto nível de satisfação do cliente.
 
+* A metodologia XP é baseada em 12 princípios, que são os valores e princípios que norteiam o desenvolvimento de software ágil.
+** Simplicidade
+** Feedback
+** Coragem
+** Respeito
+
 == Agile Manifesto
 * O Manifesto Ágil é um documento que define os princípios e valores que norteiam o desenvolvimento de software ágil.
 
-== Agile Manifesto (Valores)
-* Indivíduos e interações mais que processos e ferramentas;
-* Software funcionando mais que documentação abrangente;
-* Colaboração com o cliente mais que negociação de contratos;
-* Responder a mudanças mais que seguir um plano;
+== Agile Manifesto
+* Os 4 valores do manifesto ágil são:
+** Indivíduos e interações mais que processos e ferramentas;
+** Software funcionando mais que documentação abrangente;
+** Colaboração com o cliente mais que negociação de contratos;
+** Responder a mudanças mais que seguir um plano;
 
-== Agile Manifesto (Princípios)
-* Os 12 princípios do desenvolvimento ágil são os seguintes:
+== Agile Manifesto
+* Os 12 princípios ágeis são os valores e princípios que norteiam o desenvolvimento de software ágil.
 
 == !
 * 1. Entrega antecipada e contínua de software de valor.
@@ -166,10 +210,34 @@ image::restrictions.png[height="530"]
 * 12 Reflexão e ajuste
 ** Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e, em seguida, sintoniza e ajusta seu comportamento de acordo.
 
-== Linha do tempo
-image::methodologies-timeline.png[height="561"]
+== Metodologia Lean Software Development (Mary Poppendieck)
+* O Lean Software Development é uma abordagem para desenvolvimento de software que tem como objetivo maximizar o valor entregue ao cliente e minimizar o desperdício. Os princípios do Lean Software Development são baseados nos princípios do Lean Manufacturing e incluem:
+
+== Principais características
+* Redução de desperdícios;
+* Foco no cliente;
+* Entrega de valor;
+* Melhoria contínua;
+
+== !
+* Eliminação do desperdício: o desperdício inclui qualquer atividade que não agregue valor ao cliente, como retrabalho, espera, superprodução e excesso de processamento. O objetivo é identificar e eliminar essas atividades.
+* Amplificação do aprendizado: o aprendizado é uma parte fundamental do desenvolvimento de software. É importante aprender com as experiências passadas e aplicar esse conhecimento para melhorar continuamente o processo.
+
+== !
+* Tomada de decisão o mais tarde possível: quanto mais tarde as decisões forem tomadas, mais informações estarão disponíveis para tomar a melhor decisão possível. Isso é importante para evitar decisões precipitadas e potencialmente equivocadas.
+* Entrega rápida: a entrega rápida é importante para obter feedback do cliente o mais rápido possível e garantir que o produto atenda às necessidades do cliente.
+
+== !
+* Construção da qualidade no processo: a qualidade deve ser incorporada ao processo de desenvolvimento desde o início e não apenas testada no final. Isso ajuda a identificar e corrigir problemas mais cedo, reduzindo o retrabalho e melhorando a eficiência.
+* Respeito pelas pessoas: as pessoas são a chave para o sucesso do desenvolvimento de software. É importante valorizar e respeitar seus conhecimentos e habilidades, incentivando o trabalho em equipe e a colaboração.
+
+== !
+* Otimização do todo: o objetivo é otimizar o processo como um todo, em vez de otimizar partes individuais do processo. Isso ajuda a garantir que o processo como um todo seja eficiente e eficaz na entrega de valor ao cliente.
 
 == Metodologias ágeis
+
+== Informações adicionais
+link::https://www.youtube.com/watch?v=l-gF0vDhJVI[Técnicas de desenvolvimento ágil para o gerenciamento ideal de projetos de software.]
 
 == !
 image::the-end.png[height="540"]
