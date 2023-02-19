@@ -234,7 +234,8 @@ image::extended-kanban.png[height="374"]
 == !
 * Otimização do todo: o objetivo é otimizar o processo como um todo, em vez de otimizar partes individuais do processo. Isso ajuda a garantir que o processo como um todo seja eficiente e eficaz na entrega de valor ao cliente.
 
-== Metodologias ágeis
+== Práticas Ágeis (Gerenciamento, equipe e engenharia)
+image::pratices.png[height="540"]
 
 == Informações adicionais
 link::https://www.youtube.com/watch?v=l-gF0vDhJVI[Técnicas de desenvolvimento ágil para o gerenciamento ideal de projetos de software.]
