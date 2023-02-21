@@ -236,7 +236,7 @@ image::practices.png[background,size=contain]
 * 3. Entrega frequente
 ** Entregue o software funcionando com frequência, de algumas semanas a alguns meses, com preferência pela escala de tempo mais curta.
 * 4. Cooperação
-** Empresários e desenvolvedores devem trabalhar juntos diariamente ao longo do projeto.
+** Clientes e desenvolvedores devem trabalhar juntos diariamente ao longo do projeto.
 
 === !
 * 5. Autonomia e motivação
