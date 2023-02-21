@@ -124,7 +124,7 @@ image::extended-kanban.png[height="374"]
 === Artefatos do Scrum
 * Product Backlog
 * Sprint Backlog
-* Incremento do Produto (Entregas)
+* Product Increment (Entregas)
 * Burndown Chart (Velocidade do time)
 
 === Papéis do Scrum
@@ -263,7 +263,6 @@ image::practices.png[background,size=contain]
 * 12. Reflexão e ajuste
 ** Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e, em seguida, sintoniza e ajusta seu comportamento de acordo.
 
-
 == Metodologia Lean Software Development (Mary Poppendieck)
 * O Lean Software Development é uma abordagem para desenvolvimento de software que tem como objetivo maximizar o valor entregue ao cliente e minimizar o desperdício. Os princípios do Lean Software Development são baseados nos princípios do Lean Manufacturing e incluem:
 
@@ -288,10 +287,12 @@ image::practices.png[background,size=contain]
 === !
 * Otimização do todo: o objetivo é otimizar o processo como um todo, em vez de otimizar partes individuais do processo. Isso ajuda a garantir que o processo como um todo seja eficiente e eficaz na entrega de valor ao cliente.
 
-
+== !
+image::kahoot.jpg[background,size=contain]
 
 == Informações adicionais
-link::https://www.youtube.com/watch?v=l-gF0vDhJVI[Técnicas de desenvolvimento ágil para o gerenciamento ideal de projetos de software.]
+* link::https://youtu.be/qO0GZGy76gc[Scrum, Kanban e Scrumban]
+* link::https://youtu.be/l-gF0vDhJVI?t=445[O que é desenvolvimento ágil?]
 
 == !
 image::the-end.png[height="540"]

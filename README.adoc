@@ -1,6 +1,6 @@
 === Presentations
 
-* https://jtsato.github.io/presentations-revealjs/01-intro.html[Metodologias de desenvolvimento de software]
+* https://jtsato.github.io/presentations-revealjs/01-agile.html[Metodologias Ágeis de desenvolvimento de software]
 
 * https://jtsato.github.io/presentations-revealjs/02-agile.html[Metodologias ágeis]
 
