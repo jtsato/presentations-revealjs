@@ -26,7 +26,6 @@
 * Só sabemos o que é bom quando comparamos (Desenvolvedor vs suporte técnico);
 * Só desenvolver em inglês não é o suficiente (Company product finder);
 * Producão vs Qualidade (Tickets);
-* Conheça o "Jogo" (DE);
 * Conhece-te a ti mesmo (Qual é a sua maneira de aprender ?);
 
 == 10 minutos 
