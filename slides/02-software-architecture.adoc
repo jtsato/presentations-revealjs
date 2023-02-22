@@ -1,0 +1,113 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== Arquitetura de Software
+
+== O que é Arquitetura de Software ?
+
+=== !
+* A arquitetura é o conjunto de decisões que você queria ter tomado logo no início de um projeto, mas, como todo mundo, não teve a imaginação necessária. (Ralph Johnson)
+
+=== !
+* É a estrutura de um sistema, ou seja, a forma como os componentes do sistema estão organizados e interagem entre si.
+** É um dos principais fatores que determinam o sucesso ou fracasso de um projeto de software.
+
+=== !
+* A arquitetura de software visa estabelecer os componentes da solução, bem como a melhor maneira para que estes componentes realizem interações entre si. 
+* Visa definir a estrutura interna de cada um destes componentes, de maneira a atingirmos uma solução robusta e resiliente, ao mesmo tempo que os componentes desta solução são flexíveis, extensíveis e adaptativos para novos requisitos dentro do problema a ser resolvido.
+
+=== Aspectos 
+* Operacionais: Disponibilidade, performance, tolerância à falhas e escalabilidade.
+* Estruturais: Configuração, extensibilidade,  portabilidade e manutenibilidade.
+* Transversais: Acessibilidade, segurança, privacidade e viabilidade.
+
+== Requisitos
+* Funcionais: Descrevem o que o sistema deve fazer.
+* Não funcionais: Descrevem como o sistema deve se comportar.
+
+== O que é DevOps ?
+* DevOps é uma cultura que visa a integração e a comunicação entre as equipes de desenvolvimento e operações de TI.
+
+=== Senta, que lá vem a história
+* Praticar é a melhor forma de aprender (SQL);
+* Só sabemos o que é bom quando comparamos (Desenvolvedor vs suporte técnico);
+* Só desenvolver em inglês não é o suficiente (Company product finder);
+* Producão vs Qualidade (Tickets);
+* Conhece-te a ti mesmo (Qual é a sua maneira de aprender ?);
+
+== Por que precisamos de metodologias para o desenvolvimento de software ?
+* link::https://www.youtube.com/watch?v=POfQlg0V0Cc[The Golden Circle (Simon Sinek)]
+
+=== !
+* Ajudar a garantir que o projeto seja desenvolvido de maneira eficiente, eficaz e controlada.
+* Fornecer uma estrutura para a equipe de desenvolvimento, definindo as etapas a serem seguidas e os artefatos a serem produzidos.
+* Porque desenvolvimento de software é um processo complexo.
+
+=== Quais são as vantagens ?
+
+=== !
+* Melhora na comunicação (Alinhamento de expectativas);
+* Redução de riscos (Identificar e mitigar riscos);
+* Melhora na qualidade do software (Revisão e Testes);
+* Melhora na previsibilidade (Planejamento e Controle);
+* Melhora na produtividade (Melhor uso de recursos);
+
+=== 4 variáveis de projeto
+image::restrictions.png[height="530"]
+
+=== Linha do tempo
+image::methodologies-timeline.png[height="561"]
+
+== Metologia Kanban (Taiichi Ohno)
+* A metodologia kanban se baseia em três princípios principais: visualização do trabalho, limitação do WIP (work in progress) e melhoria contínua.
+
+=== Kanban simples
+image::simple-kanban.png[height="312"]
+
+=== Kanban extendido
+image::extended-kanban.png[height="374"]
+
+=== Kanban Key Performance Indicators (KPIs)
+* Work in Progress (Total de tarefas em andamento);
+* Quantidade de Impedimentos (Quantidade de tarefas e fase);
+* Throughput (Tarefas concluídas por período);
+* Lead Time (Tempo de duração de uma tarefa);
+
+== Metodologia Waterfall (Winston Royce)
+* A metodologia Waterfall é uma metodologia de desenvolvimento de software sequencial, onde cada fase do ciclo de vida do software é executada em sequência, uma após a outra.
+* Muito apoiada em processos e documentação.
+
+=== Fases
+* Análise de requisitos
+* Design
+* Implementação
+* Testes
+* Implantação
+* Manutenção
+
+=== Problemas com a metodologia Waterfall
+* Os clientes não sabem o que querem;
+* Os requisitos mudam;
+* Os testes são realizados no final do projeto;
+* Atrasos na entrega do projeto;
+
+=== !
+image::practices.png[background,size=contain]
+
+
+== !
+image::kahoot.jpg[background,size=contain]
+
+== Informações adicionais
+* link::https://youtu.be/qO0GZGy76gc[Scrum, Kanban e Scrumban]
+* link::https://youtu.be/l-gF0vDhJVI?t=445[O que é desenvolvimento ágil?]
+
+== !
+image::the-end.png[height="540"]

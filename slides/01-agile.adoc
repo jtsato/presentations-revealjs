@@ -8,7 +8,7 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-== Arquitetura de Software e Metodologias Ágeis
+== Metodologias Ágeis
 
 == Quem sou eu ?
 * Desenvolvedor de software desde 1999;

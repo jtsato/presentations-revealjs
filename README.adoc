@@ -1,6 +1,6 @@
 === Presentations
 
-* https://jtsato.github.io/presentations-revealjs/01-agile.html[Metodologias ágeis de desenvolvimento de software]
+* https://jtsato.github.io/presentations-revealjs/01-agile.html[Metodologias ágeis]
 
 * https://jtsato.github.io/presentations-revealjs/02-software-architecture.html[Arquitetura de software]
 
@@ -9,7 +9,6 @@
 * https://jtsato.github.io/presentations-revealjs/04-design-patterns.html[Design Patterns]
 
 * https://jtsato.github.io/presentations-revealjs/05-tdd.html[Test Driven Development]
-
 
 * https://jtsato.github.io/presentations-revealjs/mutation-testing-netcore.html[Mutation Testing NetCore]
 
