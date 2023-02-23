@@ -35,79 +35,19 @@
 == O que é DevOps ?
 * DevOps é uma cultura que visa a integração e a comunicação entre as equipes de desenvolvimento e operações de TI.
 
-=== Senta, que lá vem a história
-* Praticar é a melhor forma de aprender (SQL);
-* Só sabemos o que é bom quando comparamos (Desenvolvedor vs suporte técnico);
-* Só desenvolver em inglês não é o suficiente (Company product finder);
-* Producão vs Qualidade (Tickets);
-* Conhece-te a ti mesmo (Qual é a sua maneira de aprender ?);
+== Estilos Arquiteturais
 
-== Por que precisamos de metodologias para o desenvolvimento de software ?
-* link::https://www.youtube.com/watch?v=POfQlg0V0Cc[The Golden Circle (Simon Sinek)]
-
-=== !
-* Ajudar a garantir que o projeto seja desenvolvido de maneira eficiente, eficaz e controlada.
-* Fornecer uma estrutura para a equipe de desenvolvimento, definindo as etapas a serem seguidas e os artefatos a serem produzidos.
-* Porque desenvolvimento de software é um processo complexo.
-
-=== Quais são as vantagens ?
-
-=== !
-* Melhora na comunicação (Alinhamento de expectativas);
-* Redução de riscos (Identificar e mitigar riscos);
-* Melhora na qualidade do software (Revisão e Testes);
-* Melhora na previsibilidade (Planejamento e Controle);
-* Melhora na produtividade (Melhor uso de recursos);
-
-=== 4 variáveis de projeto
-image::restrictions.png[height="530"]
-
-=== Linha do tempo
-image::methodologies-timeline.png[height="561"]
-
-== Metologia Kanban (Taiichi Ohno)
-* A metodologia kanban se baseia em três princípios principais: visualização do trabalho, limitação do WIP (work in progress) e melhoria contínua.
-
-=== Kanban simples
-image::simple-kanban.png[height="312"]
-
-=== Kanban extendido
-image::extended-kanban.png[height="374"]
-
-=== Kanban Key Performance Indicators (KPIs)
-* Work in Progress (Total de tarefas em andamento);
-* Quantidade de Impedimentos (Quantidade de tarefas e fase);
-* Throughput (Tarefas concluídas por período);
-* Lead Time (Tempo de duração de uma tarefa);
-
-== Metodologia Waterfall (Winston Royce)
-* A metodologia Waterfall é uma metodologia de desenvolvimento de software sequencial, onde cada fase do ciclo de vida do software é executada em sequência, uma após a outra.
-* Muito apoiada em processos e documentação.
-
-=== Fases
-* Análise de requisitos
-* Design
-* Implementação
-* Testes
-* Implantação
-* Manutenção
-
-=== Problemas com a metodologia Waterfall
-* Os clientes não sabem o que querem;
-* Os requisitos mudam;
-* Os testes são realizados no final do projeto;
-* Atrasos na entrega do projeto;
-
-=== !
-image::practices.png[background,size=contain]
-
+== Padrões Arquiteturais 
 
 == !
 image::kahoot.jpg[background,size=contain]
 
-== Informações adicionais
-* link::https://youtu.be/qO0GZGy76gc[Scrum, Kanban e Scrumban]
-* link::https://youtu.be/l-gF0vDhJVI?t=445[O que é desenvolvimento ágil?]
+== Informações adicionais [Essencial]
+* link:https://youtube.com/playlist?list=PL4JxLacgYgqTgS8qQPC17fM-NWMTr5GW6[Software Architecture and Design]
+
+== Informações adicionais [Opcional]
+* link:https://roadmap.sh/software-design-architecture[Software Design and Architecture Roadmap]
+* link:https://roadmap.sh/backend[Backend Roadmap]
 
 == !
 image::the-end.png[height="540"]

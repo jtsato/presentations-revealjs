@@ -10,6 +10,8 @@
 
 * https://jtsato.github.io/presentations-revealjs/05-tdd.html[Test Driven Development]
 
+'''
+
 * https://jtsato.github.io/presentations-revealjs/mutation-testing-netcore.html[Mutation Testing NetCore]
 
 * https://jtsato.github.io/presentations-revealjs/mutation-testing-java.html[Mutation Testing Java]

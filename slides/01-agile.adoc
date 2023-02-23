@@ -62,7 +62,7 @@
 * Estímulos práticos e físicos
 
 == Por que precisamos de metodologias para o desenvolvimento de software ?
-* link::https://www.youtube.com/watch?v=POfQlg0V0Cc[The Golden Circle (Simon Sinek)]
+* link:https://www.youtube.com/watch?v=POfQlg0V0Cc[The Golden Circle (Simon Sinek)]
 
 === !
 * Ajudar a garantir que o projeto seja desenvolvido de maneira eficiente, eficaz e controlada.
@@ -289,9 +289,14 @@ image::practices.png[background,size=contain]
 == !
 image::kahoot.jpg[background,size=contain]
 
-== Informações adicionais
-* link::https://youtu.be/qO0GZGy76gc[Scrum, Kanban e Scrumban]
-* link::https://youtu.be/l-gF0vDhJVI?t=445[O que é desenvolvimento ágil?]
+== Informações adicionais [Essencial]
+* link:https://youtu.be/qO0GZGy76gc[Scrum, Kanban e Scrumban]
+* link:https://youtu.be/l-gF0vDhJVI?t=445[O que é desenvolvimento ágil?]
+
+== Informações adicionais [Opcional]
+* link:https://agilemanifesto.org[Agile Manifesto]
+* link:https://scrumguides.org/scrum-guide.html[Scrum Guide]
+* link:https://resources.kanban.university/kanban-guide/[Kanban Guide]
 
 == !
 image::the-end.png[height="540"]
