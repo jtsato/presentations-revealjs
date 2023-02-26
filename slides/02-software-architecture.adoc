@@ -78,7 +78,7 @@
 * Continuous Delivery?
 * Continuous Deployment?
 
-== !
+=== !
 * Continuous Integration: Integrar o código fonte de forma contínua.
 * Continuous Delivery: Entregar o software de forma contínua.
 * Continuous Deployment: Implantar o software de forma contínua.
@@ -89,7 +89,7 @@
 * Pipeline?
 * DevOps?
 
-== !
+=== !
 * Build: é o processo de compilação de um código fonte.
 * Deploy: é o processo de publicação de uma aplicação em um ambiente de produção.
 * Pipeline: é um conjunto de etapas que o código passa antes de ser implantado em produção.
@@ -100,7 +100,7 @@
 * Multi Repo?
 * Multi Tenant?
 
-== !
+=== !
 * Mono Repo: é um repositório que contém todos os códigos fontes de um projeto.
 * Multi Repo: é um repositório que contém os códigos fontes de um projeto separados por módulos.
 * Multi Tenant: é um modelo de arquitetura de software que permite que uma única instância de um aplicativo seja usada por vários clientes.
