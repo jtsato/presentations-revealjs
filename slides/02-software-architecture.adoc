@@ -32,57 +32,78 @@
 * Funcionais: Descrevem o que o sistema deve fazer.
 * Não funcionais: Descrevem como o sistema deve se comportar.
 
-== Arquitetura Monolítica
+=== Arquitetura Monolítica
 * É uma arquitetura que concentra toda a lógica de negócio em uma única aplicação.
 
-== Arquitetura de Microsserviços
-* É uma arquitetura que divide a aplicação em pequenos serviços, cada um com sua própria responsabilidade.
-
-== Vantagens da arquitetura monolítica
+=== Vantagens
 * Implantação mais facilitada
 * Facilidade de desenvolvimento
 * Performance em interações
 * Testes e depuração mais simples
 
-== Desvantagens da arquitetura monolítica
+=== Desvantagens
 * Escalabilidade
 * Confiabilidade
 * Diminuição da velocidade de desenvolvimento
 * Processo de atualização mais complexo
 
-== Vantagens da arquitetura de microsserviços
+== Arquitetura de Microsserviços
+* É uma arquitetura que divide a aplicação em pequenos serviços, cada um com sua própria responsabilidade.
+
+=== Vantagens
 * Escalabilidade
 * Processo de implantação flexível
 * Flexibilidade tecnológica
 * Agilidade
 
-== Desvantagens da arquitetura de microsserviços
+=== Desvantagens
 * Complexidade de implantação
 * Complexidade de integração
 * Sobrecarga de comunicação
 * Possível falta de padronização
 
-== Fatores a serem considerados na escolha
-* Monolítica:
-** Tempo de desenvolvimento
-** Manutenção
-* Microsserviços
-** Escalabilidade: 
-** Complexidade
-** Disponibilidade
-** Reutilização de código
-** Cultura organizacional
+== Arquitetura Monolítica, quando usar?
+* Tempo de desenvolvimento
+* Manutenção
+
+== Arquitetura de Microsserviços, quando usar?
+* Escalabilidade: 
+* Complexidade
+* Disponibilidade
+* Reutilização de código
+* Cultura organizacional
 
 == O que é o que é?
+* Continuous Integration?
+* Continuous Delivery?
+* Continuous Deployment?
+
+== !
+* Continuous Integration: Integrar o código fonte de forma contínua.
+* Continuous Delivery: Entregar o software de forma contínua.
+* Continuous Deployment: Implantar o software de forma contínua.
+
+== O que é o que é?
+* Build?
+* Deploy?
+* Pipeline?
+* DevOps?
+
+== !
+* Build: é o processo de compilação de um código fonte.
 * Deploy: é o processo de publicação de uma aplicação em um ambiente de produção.
 * Pipeline: é um conjunto de etapas que o código passa antes de ser implantado em produção.
-* Continuous Integration: é uma prática de desenvolvimento de software que visa integrar o código fonte de forma contínua.
-* Continuous Delivery: é uma prática de desenvolvimento de software que visa entregar o software de forma contínua.
-* Continuous Deployment: é uma prática de desenvolvimento de software que visa implantar o software de forma contínua.
 * DevOps: é uma cultura que visa a integração e a comunicação entre as equipes de desenvolvimento e operações de TI.
-* Multi Tenant: é um modelo de arquitetura de software que permite que uma única instância de um aplicativo seja usada por vários clientes.
+
+== O que é o que é?
+* Mono Repo?
+* Multi Repo?
+* Multi Tenant?
+
+== !
 * Mono Repo: é um repositório que contém todos os códigos fontes de um projeto.
 * Multi Repo: é um repositório que contém os códigos fontes de um projeto separados por módulos.
+* Multi Tenant: é um modelo de arquitetura de software que permite que uma única instância de um aplicativo seja usada por vários clientes.
 
 == !
 image::kahoot.jpg[background,size=contain]
