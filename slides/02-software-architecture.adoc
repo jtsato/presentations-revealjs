@@ -73,7 +73,7 @@
 * Reutilização de código
 * Cultura organizacional
 
-== O que é o que é?
+== O que é, o que é?
 * Continuous Integration?
 * Continuous Delivery?
 * Continuous Deployment?
@@ -83,7 +83,7 @@
 * Continuous Delivery: Entregar o software de forma contínua.
 * Continuous Deployment: Implantar o software de forma contínua.
 
-== O que é o que é?
+== O que é, o que é?
 * Build?
 * Deploy?
 * Pipeline?
@@ -95,7 +95,7 @@
 * Pipeline: é um conjunto de etapas que o código passa antes de ser implantado em produção.
 * DevOps: é uma cultura que visa a integração e a comunicação entre as equipes de desenvolvimento e operações de TI.
 
-== O que é o que é?
+== O que é, o que é?
 * Mono Repo?
 * Multi Repo?
 * Multi Tenant?
@@ -109,10 +109,11 @@
 image::kahoot.jpg[background,size=contain]
 
 == Informações adicionais [Essencial]
-* link:https://youtube.com/playlist?list=PL4JxLacgYgqTgS8qQPC17fM-NWMTr5GW6[Software Architecture and Design]
+* link:https://www.youtube.com/watch?v=kYx1QC1XZSo[Arquitetura de Software]
+* link:https://youtube.com/playlist?list=PL4JxLacgYgqTgS8qQPC17fM-NWMTr5GW6[Design e Arquitetura de Software]
 
 == Informações adicionais [Opcional]
-* link:https://roadmap.sh/software-design-architecture[Software Design and Architecture Roadmap]
+* link:https://roadmap.sh/software-design-architecture[Design e Arquitetura de Software Roadmap]
 * link:https://roadmap.sh/backend[Backend Roadmap]
 
 == !

@@ -1,0 +1,31 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== SOLID
+
+== O que é SOLID ?
+
+== !
+* SOLID é um acrônimo para um conjunto de cinco princípios de design de software orientado a objetos, criados para orientar desenvolvedores a escreverem códigos mais eficientes, flexíveis e fáceis de manter.
+
+== !
+* S: Princípio da Responsabilidade Única (Single Responsibility Principle): Cada classe deve ter uma única responsabilidade, ou seja, deve ter apenas um motivo para ser modificada.
+
+== !
+* O: Princípio do Aberto/Fechado (Open/Closed Principle): As classes devem estar abertas para extensão, mas fechadas para modificação. Ou seja, deve ser possível estender a funcionalidade de uma classe sem modificar seu código fonte original.
+
+== !
+* L: Princípio da Substituição de Liskov (Liskov Substitution Principle): As subclasses devem poder ser substituídas por suas classes base, sem alterar a precisão do programa.
+
+== !
+* I: Princípio da Segregação de Interface (Interface Segregation Principle): Uma classe não deve ser forçada a implementar interfaces que não utiliza. Em outras palavras, a interface de uma classe deve ser coesa, ou seja, deve representar apenas um conjunto de comportamentos relacionados.
+
+== !
+* D: Princípio da Inversão de Dependência (Dependency Inversion Principle): Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
