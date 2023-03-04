@@ -13,19 +13,47 @@
 == O que é SOLID ?
 
 == !
-* SOLID é um acrônimo para um conjunto de cinco princípios de design de software orientado a objetos, criados para orientar desenvolvedores a escreverem códigos mais eficientes, flexíveis e fáceis de manter.
+image::0-SOLID.png[height="500"]
 
 == !
 * S: Princípio da Responsabilidade Única (Single Responsibility Principle): Cada classe deve ter uma única responsabilidade, ou seja, deve ter apenas um motivo para ser modificada.
 
+=== !
+image::1-SOLID-SRP-01.png[height="221"]
+
+=== !
+image::1-SOLID-SRP-02.png[height="449"]
+
 == !
 * O: Princípio do Aberto/Fechado (Open/Closed Principle): As classes devem estar abertas para extensão, mas fechadas para modificação. Ou seja, deve ser possível estender a funcionalidade de uma classe sem modificar seu código fonte original.
+
+=== !
+image::2-SOLID-OCP.png[height="413"]
 
 == !
 * L: Princípio da Substituição de Liskov (Liskov Substitution Principle): As subclasses devem poder ser substituídas por suas classes base, sem alterar a precisão do programa.
 
+=== !
+image::3-SOLID-LSP.png[height="509"]
+
 == !
 * I: Princípio da Segregação de Interface (Interface Segregation Principle): Uma classe não deve ser forçada a implementar interfaces que não utiliza. Em outras palavras, a interface de uma classe deve ser coesa, ou seja, deve representar apenas um conjunto de comportamentos relacionados.
 
+=== !
+image::4-SOLID-ISP.png[height="474"]
+
 == !
 * D: Princípio da Inversão de Dependência (Dependency Inversion Principle): Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+
+=== !
+image::5-SOLID-DIP.png[height="528"]
+
+== Informações adicionais [Essencial]
+* link:https://www.youtube.com/watch?v=mkx0CdWiPRA[SOLID (O básico para você programar melhor)]
+* link:https://www.youtube.com/watch?v=69sfWNzxTMc[SOLID Design Principles Explained in a Nutshell]
+
+== Informações adicionais [Opcional]
+* link:https://www.youtube.com/watch?v=6SfrO3D4dHM[SOLID fica FÁCIL com Essas Ilustrações]
+
+== !
+image::the-end.png[height="540"]
