@@ -48,6 +48,9 @@ image::4-SOLID-ISP.png[height="474"]
 === !
 image::5-SOLID-DIP.png[height="528"]
 
+== !
+image::kahoot.jpg[background,size=contain]
+
 == Informações adicionais [Essencial]
 * link:https://www.youtube.com/watch?v=mkx0CdWiPRA[SOLID (O básico para você programar melhor)]
 * link:https://www.youtube.com/watch?v=69sfWNzxTMc[SOLID Design Principles Explained in a Nutshell]
