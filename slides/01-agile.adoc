@@ -28,7 +28,7 @@
 * Producão vs Qualidade (Tickets);
 * Conhece-te a ti mesmo (Qual é a sua maneira de aprender ?);
 
-== 10 minutos 
+== 15 minutos 
 * link:https://vark-learn.com/questionario/[https://vark-learn.com/questionario/]
 ** Neil Fleming's VARK Questionnaire
 
