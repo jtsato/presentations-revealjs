@@ -256,7 +256,7 @@ image::practices.png[background,size=contain]
 * 7. Software funcionando
 ** O software funcionando é a principal medida de progresso.
 * 8. Ambientes de trabalho estáveis
-** Processos ágeis promovem o desenvolvimento sustentável Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
+** Processos ágeis promovem o desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
 
 === !
 * 9. Garantia de qualidade
