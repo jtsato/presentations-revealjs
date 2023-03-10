@@ -53,10 +53,11 @@ image::kahoot.jpg[background,size=contain]
 
 == Informações adicionais [Essencial]
 * link:https://www.youtube.com/watch?v=mkx0CdWiPRA[SOLID (O básico para você programar melhor)]
-* link:https://www.youtube.com/watch?v=69sfWNzxTMc[SOLID Design Principles Explained in a Nutshell]
+* link:https://www.youtube.com/watch?v=6SfrO3D4dHM[SOLID fica FÁCIL com Essas Ilustrações]
 
 == Informações adicionais [Opcional]
-* link:https://www.youtube.com/watch?v=6SfrO3D4dHM[SOLID fica FÁCIL com Essas Ilustrações]
+* link:https://www.youtube.com/watch?v=69sfWNzxTMc[SOLID Design Principles Explained in a Nutshell]
+* link:https://www.freecodecamp.org/news/solid-design-principles-in-software-development[SOLID Design Principles in Software Development]
 
 == !
 image::the-end.png[height="540"]
