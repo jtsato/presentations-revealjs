@@ -120,6 +120,14 @@ image::extended-kanban.png[height="374"]
 == Metodologia Scrum (Jeff Sutherland)
 * A metodologia Scrum é uma abordagem ágil para desenvolvimento de software que utiliza uma série de cerimônias (ou eventos) para garantir a transparência, inspeção e adaptação durante o processo de desenvolvimento.
 
+=== Metodologia Scrum (Valores)
+* Atingir os benefícios do Scrum requer que as pessoas e equipes entendam o que esses valores significam, como aplicá-los e como reconhecê-los.
+** Foco
+** Abertura
+** Coragem
+** Comprometimento
+** Respeito
+
 === Artefatos do Scrum
 * Product Backlog
 * Sprint Backlog
