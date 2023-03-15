@@ -8,9 +8,9 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-== SOLID
+== S.O.L.I.D
 
-== O que é SOLID ?
+== O que é S.O.L.I.D ?
 
 == !
 image::0-SOLID.png[height="500"]
