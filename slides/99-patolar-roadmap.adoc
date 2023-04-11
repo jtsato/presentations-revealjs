@@ -34,31 +34,31 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 === Serviço de consulta de imoveis [propertie API]
 * API REST para a consulta de imóveis
 
-=== Front-end do cliente [showcase]
+=== Front-end do cliente [showcase] (1/3)
 * Pesquisa de imóveis (venda e aluguel)
 * Custo por metro quadrado
 * Custo médio da região, tamanho e tipo
 
-=== Front-end do cliente [showcase]
+=== Front-end do cliente [showcase] (2/3)
 * Ordenar por:
   ** Padrão: Mais relevante [patrocinado]
   ** Data de cadastro DESC
   ** Data de onboarding DESC
   ** Número de anúncios DESC
 
-=== Front-end do cliente [showcase]
+=== Front-end do cliente [showcase] (3/3)
 * Integração com Google Maps
 * Pagina inicial aka Home Page (Destaque, Promoção, Propaganda, etc.)
 * Google Analytics
 * Multi-idioma
 
-=== Marketing Strategy
+=== Marketing Strategy (1/2)
 * SEO
 * Google Ads
 * Publicidade física
 * Marketing boca a boca
 
-=== Marketing Strategy
+=== Marketing Strategy (2/2)
 * Marketing de conteúdo (Blog Post, Vídeos, etc.)
 * Facebook e Instagram Ads
 * Marketing de influenciadores
