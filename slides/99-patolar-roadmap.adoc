@@ -1,0 +1,180 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== Pato Lar
+
+== Real estate portal [PatoLar.com.br]
+* Porque: Os sites imobiliários de Pato Branco são péssimos
+* Como: Ser a primeira escolha de quem procura imóveis em Pato Branco
+* O que: Um portal de classificados de imóveis
+
+==! 
+Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com nosso site intuitivo e fácil de usar, você pode pesquisar por localização, tipo de imóvel, preço e muito mais, e receber resultados precisos em segundos.
+
+== Fase 1: Fury Road
+* Cadastrar uma base de imóveis utilizando web scraping
+* Criar um site para exibir os imóveis
+
+=== Serviço de segundo plano [spy]
+* Importar os imóveis [web scraping]
+* Salvar os imóveis importados em uma fila
+
+=== Serviço de tratamento de dados [worker]
+* Consumir os dados da fila
+* Tratar os dados importados
+* Salvar os dados tratados em um banco de dados
+
+=== Serviço de consulta de imoveis [propertie API]
+* API REST para a consulta de imóveis
+
+=== Front-end do cliente [showcase]
+* Pesquisa de imóveis (venda e aluguel)
+* Custo por metro quadrado
+* Custo médio da região, tamanho e tipo
+* Ordenar por:
+  ** Padrão: Mais relevante [patrocinado]
+  ** Data de cadastro DESC
+  ** Data de onboarding DESC
+  ** Número de anúncios DESC
+* Integração com Google Maps
+* Pagina inicial aka Home Page (Destaque, Promoção, Propaganda, etc.)
+* Google Analytics
+* Multi-idioma
+
+=== Marketing Strategy
+* SEO
+* Google Ads
+* Publicidade física
+* Marketing boca a boca
+* Marketing de conteúdo (Blog Post, Vídeos, etc.)
+* Facebook e Instagram Ads
+* Marketing de influenciadores
+* Media tradicional (TV, rádio, jornal, etc.)
+
+=== FAQ
+
+=== Como funciona o Marketplace de Imóveis?
+* R: A PatoLar.com.br é uma plataforma que conecta compradores e vendedores de imóveis. Os vendedores podem listar seus imóveis para venda ou aluguel na plataforma, enquanto os compradores podem procurar imóveis e entrar em contato diretamente com os vendedores.
+
+=== Como os anúncios de imóveis são adicionados ao Marketplace?
+R: Os anúncios de imóveis podem ser adicionados manualmente pelos funcionários da PatoLar.com.br.
+
+=== Os anúncios de imóveis são atualizados regularmente?
+R: Sim, os anúncios de imóveis são atualizados regularmente para garantir que as informações sejam precisas e atualizadas.
+
+=== A imobiliária tem custo em listar seus imóveis no Marketplace?
+R: As imobiliárias não têm custo em listar seus imóveis no PatoLar.com.br. No entanto, os anúncios de imóveis poderão ser promovidos para aumentar a visibilidade e o alcance. A promoção de anúncios tem custo mas é opcional. Para obter mais informações, entre em contato com o suporte da PatoLar.com.br.
+
+=== Quem é responsável pela transação imobiliária?
+R: A transação imobiliária é realizada diretamente entre o comprador e o vendedor. O Marketplace de Imóveis apenas fornece uma plataforma para conectar os dois.
+
+=== Como posso entrar em contato com o suporte do Marketplace de Imóveis?
+R: Você pode entrar em contato com o suporte do Marketplace de Imóveis por meio do formulário de contato no site, por e-mail ( contato@PatoLar.com.br ) ou pelo whatsapp ( 46-9-9999-9999 ).
+
+=== Concorrentes e referências
+* https://www.zapimoveis.com.br/
+* https://www.vivareal.com.br/
+* https://www.imovelweb.com.br/
+* https://www.zillow.com/new-york-ny/
+* https://www.quintoandar.com.br/alugar/imovel/curitiba-pr-brasil
+
+=== KPIs
+* Número de visitantes únicos
+* Tempo médio de permanência no site
+* Número de anúncios ativos
+* Taxa de conversão (clicou em um anúncio)
+
+== Fase 2: Judgment Day
+* Habilitar o módulo de propaganda patrocinada
+* Integração com meios de pagamento
+
+=== Front-end dos clientes [showcase]
+* Propaganda patrocinada
+* Lançamento (Home Page) [Anuncie por 7 dias]
+* Se a lista estiver vazia, obtenha anúncios aleatórios simples
+* Cadastro do cliente (leads)
+* Pesquise, salve e alerte [mail marketing] como o Linkedin
+
+=== Front-end das imobiliárias [backoffice]
+* Filtrar os anúncios por imobiliária
+* Promoção de imóvel [topo dos resultados da pesquisa]
+* Lançamento (Home Page) [Anuncie por 7 dias]
+* Se não houver, obtenha um anúncio aleatório simples
+* Referência -> https://anuncie.zapimoveis.com.br/planos
+* Relatórios de clicks e visualizações
+
+=== Backend [backoffice]
+* Anúncios microservice (Produto + Imóvel) 
+* Produtos microservice
+* Carrinho de compras microservice
+* Pedido microservice
+* Pagamento microservice
+
+=== KPIs
+* Avaliações dos clientes
+* Volume de transações
+* Custo de aquisição de clientes
+
+== Fase 3: The Empire Strikes Back
+* Postagem automática anúncios no Facebook e Instagram
+
+=== Social media
+* Facebook (Posts de novos imóveis)
+  ** Na página do PatoLar
+  ** Na página de classificados de Pato Branco
+* Instagram (Posts de novos imóveis)
+  ** No perfil do PatoLar
+  ** No perfil de classificados de Pato Branco
+
+== Fase 4: Infinity War
+* Executar tarefas administrativas
+
+=== Admin front-end [backstage]
+* Criar cupons de desconto
+* Gerenciar os anúncios
+* Gerenciar os clientes
+* Gerenciar os pedidos
+* Gerenciar os pagamentos
+* Gerenciar os produtos
+* Gerenciar os carrinhos de compras
+* Gerenciar os leads
+
+=== Inteligência Artificial
+* Correção automática das informações
+* Resumo automático das informações
+
+=== Relatórios estratégicos
+* Previsão de preço 
+** por m² 
+** por bairro 
+** por tipo de imóvel 
+** por número de quartos 
+** por número de banheiros 
+** por número de vagas de garagem, etc.
+
+=== Relatórios de marketing
+* Relatório de anúncios
+* Relatório de clientes
+* Relatório de pedidos
+* Relatório de pagamentos
+* Relatório de produtos
+* Relatório de carrinhos de compras
+* Relatório de leads
+
+== Fase 5: Efeito Fallout
+* Top Secrets: 
+** Web Scraping
+** Concorrência com as imobiliárias
+** Parceria com construtoras (Venda de imóveis prontos ou em construção)
+** Parceria com bancos (Simule seu financiamento)
+** Anúncios de imobiliárias sem site próprio
+*** Onboarding
+*** Treinamento
+** Abertura para anúncios de pessoas físicas?
