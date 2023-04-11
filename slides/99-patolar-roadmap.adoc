@@ -15,7 +15,7 @@
 * Como: Ser a primeira escolha de quem procura imóveis em Pato Branco
 * O que: Um portal de classificados de imóveis
 
-==! 
+== !
 Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com nosso site intuitivo e fácil de usar, você pode pesquisar por localização, tipo de imóvel, preço e muito mais, e receber resultados precisos em segundos.
 
 == Fase 1: Fury Road
@@ -38,11 +38,15 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 * Pesquisa de imóveis (venda e aluguel)
 * Custo por metro quadrado
 * Custo médio da região, tamanho e tipo
+
+=== Front-end do cliente [showcase]
 * Ordenar por:
   ** Padrão: Mais relevante [patrocinado]
   ** Data de cadastro DESC
   ** Data de onboarding DESC
   ** Número de anúncios DESC
+
+=== Front-end do cliente [showcase]
 * Integração com Google Maps
 * Pagina inicial aka Home Page (Destaque, Promoção, Propaganda, etc.)
 * Google Analytics
@@ -53,6 +57,8 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 * Google Ads
 * Publicidade física
 * Marketing boca a boca
+
+=== Marketing Strategy
 * Marketing de conteúdo (Blog Post, Vídeos, etc.)
 * Facebook e Instagram Ads
 * Marketing de influenciadores
@@ -61,22 +67,22 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 === FAQ
 
 === Como funciona o Marketplace de Imóveis?
-* R: A PatoLar.com.br é uma plataforma que conecta compradores e vendedores de imóveis. Os vendedores podem listar seus imóveis para venda ou aluguel na plataforma, enquanto os compradores podem procurar imóveis e entrar em contato diretamente com os vendedores.
+* A PatoLar.com.br é uma plataforma que conecta compradores e vendedores de imóveis. Os vendedores podem listar seus imóveis para venda ou aluguel na plataforma, enquanto os compradores podem procurar imóveis e entrar em contato diretamente com os vendedores.
 
 === Como os anúncios de imóveis são adicionados ao Marketplace?
-R: Os anúncios de imóveis podem ser adicionados manualmente pelos funcionários da PatoLar.com.br.
+* Os anúncios de imóveis podem ser adicionados manualmente pelos funcionários da PatoLar.com.br.
 
 === Os anúncios de imóveis são atualizados regularmente?
-R: Sim, os anúncios de imóveis são atualizados regularmente para garantir que as informações sejam precisas e atualizadas.
+* Sim, os anúncios de imóveis são atualizados regularmente para garantir que as informações sejam precisas e atualizadas.
 
 === A imobiliária tem custo em listar seus imóveis no Marketplace?
-R: As imobiliárias não têm custo em listar seus imóveis no PatoLar.com.br. No entanto, os anúncios de imóveis poderão ser promovidos para aumentar a visibilidade e o alcance. A promoção de anúncios tem custo mas é opcional. Para obter mais informações, entre em contato com o suporte da PatoLar.com.br.
+* As imobiliárias não têm custo em listar seus imóveis no PatoLar.com.br. No entanto, os anúncios de imóveis poderão ser promovidos para aumentar a visibilidade e o alcance. A promoção de anúncios tem custo mas é opcional. Para obter mais informações, entre em contato com o suporte da PatoLar.com.br.
 
 === Quem é responsável pela transação imobiliária?
-R: A transação imobiliária é realizada diretamente entre o comprador e o vendedor. O Marketplace de Imóveis apenas fornece uma plataforma para conectar os dois.
+* A transação imobiliária é realizada diretamente entre o comprador e o vendedor. O Marketplace de Imóveis apenas fornece uma plataforma para conectar os dois.
 
 === Como posso entrar em contato com o suporte do Marketplace de Imóveis?
-R: Você pode entrar em contato com o suporte do Marketplace de Imóveis por meio do formulário de contato no site, por e-mail ( contato@PatoLar.com.br ) ou pelo whatsapp ( 46-9-9999-9999 ).
+* Você pode entrar em contato com o suporte do Marketplace de Imóveis por meio do formulário de contato no site, por e-mail ( contato@PatoLar.com.br ) ou pelo whatsapp ( 46-9-9999-9999 ).
 
 === Concorrentes e referências
 * https://www.zapimoveis.com.br/
