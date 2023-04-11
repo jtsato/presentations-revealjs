@@ -108,10 +108,12 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 * Cadastro do cliente (leads)
 * Pesquise, salve e alerte [mail marketing] como o Linkedin
 
-=== Front-end das imobiliárias [backoffice]
+=== Front-end das imobiliárias [backoffice] (1/2)
 * Filtrar os anúncios por imobiliária
 * Promoção de imóvel [topo dos resultados da pesquisa]
 * Lançamento (Home Page) [Anuncie por 7 dias]
+
+=== Front-end das imobiliárias [backoffice] (2/2)
 * Se não houver, obtenha um anúncio aleatório simples
 * Referência -> https://anuncie.zapimoveis.com.br/planos
 * Relatórios de clicks e visualizações
@@ -142,11 +144,13 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 == Fase 4: Infinity War
 * Executar tarefas administrativas
 
-=== Admin front-end [backstage]
+=== Admin front-end [backstage] (1/2)
 * Criar cupons de desconto
 * Gerenciar os anúncios
 * Gerenciar os clientes
 * Gerenciar os pedidos
+
+=== Admin front-end [backstage] (2/2)
 * Gerenciar os pagamentos
 * Gerenciar os produtos
 * Gerenciar os carrinhos de compras
