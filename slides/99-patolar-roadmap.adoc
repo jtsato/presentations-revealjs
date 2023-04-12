@@ -170,20 +170,23 @@ Nosso objetivo é facilitar a sua busca pelo imóvel ideal em Pato Branco. Com n
 ** por número de vagas de garagem, etc.
 
 === Relatórios de marketing
-* Relatório de anúncios
-* Relatório de clientes
-* Relatório de pedidos
-* Relatório de pagamentos
-* Relatório de produtos
-* Relatório de carrinhos de compras
-* Relatório de leads
+* Relatório de:
+** Anúncios
+** Pedidos
+** Pagamentos
+** Produtos
+** Carrinhos de compras
+** Leads
 
 == Fase 5: Efeito Fallout
-* Top Secrets: 
+
+=== Top Secrets: 
 ** Web Scraping
 ** Concorrência com as imobiliárias
 ** Parceria com construtoras (Venda de imóveis prontos ou em construção)
 ** Parceria com bancos (Simule seu financiamento)
+
+=== Top Secrets: 
 ** Anúncios de imobiliárias sem site próprio
 *** Onboarding
 *** Treinamento
