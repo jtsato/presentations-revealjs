@@ -1,0 +1,43 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+= Fisioterapia: Uma Carreira de Cuidado, Reabilitação e Promoção da Saúde
+
+== Introdução
+
+A carreira de fisioterapeuta é uma profissão dinâmica e gratificante que se dedica ao cuidado e reabilitação de pessoas com problemas físicos.
+
+== Formação e Requisitos
+
+Para se tornar um fisioterapeuta, é necessário obter um diploma de bacharelado em Fisioterapia em uma instituição de ensino reconhecida.
+
+== Especialidades na Fisioterapia
+
+- Fisioterapia Esportiva
+- Fisioterapia Ortopédica
+- Fisioterapia Neurológica
+- Fisioterapia Respiratória
+- Fisioterapia Pediátrica
+
+== Atuação Profissional
+
+- Clínicas de Fisioterapia
+- Hospitais e Centros de Reabilitação
+- Esportes e Atividades Físicas
+- Instituições de Ensino
+- Pesquisa e Desenvolvimento
+
+== Perspectivas de Carreira
+
+A demanda por fisioterapeutas tem crescido significativamente devido ao envelhecimento da população e ao maior reconhecimento da importância da reabilitação e da promoção da saúde.
+
+== Conclusão
+
+A carreira de fisioterapeuta é uma escolha gratificante para aqueles que desejam fazer a diferença na vida das pessoas, ajudando-as a recuperar a função física, aliviar a dor e melhorar a qualidade de vida.
