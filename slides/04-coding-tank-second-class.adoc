@@ -1,5 +1,3 @@
-= Coding Tank (Aula 2)
-
 :backend: revealjs
 :revealjs_history: true
 :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
@@ -9,6 +7,8 @@
 :revealjs_transition: convex
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
+
+= Coding Tank (Aula 2)
 
 == Agenda
 * Questionário VARK
