@@ -1,0 +1,112 @@
+= Coding Tank (Aula 2)
+
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+== Agenda
+* Questionário VARK
+* Verificação de Instalação
+* Comparação de IDEs
+* Revisão da Aula 1 (Autoboxing, final e enums)
+* Kahoot (Variáveis e Tipos primitivos)
+* Operadores Aritméticos, Lógicos e Matemáticos
+* Condicionais (if, else, switch)
+* Laços de Repetição (for, while, do-while)
+* Kahoot (Operadores)
+* Informações adicionais
+* Encerramento
+
+== Conhece-te a ti mesmo (10 minutos)
+* link:https://vark-learn.com/questionario/[https://vark-learn.com/questionario/]
+** Neil Fleming's VARK Questionnaire
+
+=== Auditivos
+* Explicações de conceitos
+* Gravação de aulas
+* Podcasts
+* Discussões em grupo
+* Palestras
+
+=== Visual
+* Demonstração visuais
+* Diagramas
+* Flash cards
+* Mapas mentais
+* Gráficos
+* Vídeos
+
+=== Leia e Escrita
+* Artigos
+* Livros
+* Manuais
+* Anotações
+* Resumos
+
+=== Cinestésico
+* Experiencias práticas
+* Apresentações
+* Encenações
+* Simulações
+* Estímulos práticos e físicos
+
+== Verificação de Instalação
+* Java JDK
+* JAVA_HOME
+* IDE (Eclipse, IntelliJ, VSCode)
+
+== Comparação de IDEs
+
+=== Eclipse:
+* Funciona em qualquer coisa que suporte JVM
+* Demanda de hardware muito básica
+* Imenso ecossistema de plugins
+* Curva de aprendizado maior
+* IDE comumente usado
+* Gratuito
+
+=== IntelliJ:
+* Amigável para iniciantes
+* Autocompletar de código
+* Menor curva de aprendizado
+* IDE preferido por desenvolvedores Java novos e experientes
+* Duas edições dependendo das suas necessidades
+* Controle de versão para gerenciar branchs, navegar mudanças, e mesclar conflitos
+* Indexa o projeto inteiro quando você inicia (acelera o processo de busca)
+
+=== VSCode:
+* Bom para trabalhar em um único arquivo ou coisas menores
+* Muitas extensões para transformá-lo em uma IDE completa
+* Não é tão popular quanto o IntelliJ (Para Java)
+* Debugger não tão bom quanto o IntelliJ
+* Funcionalidade de compartilhamento ao vivo
+* Construído em cima de uma plataforma Electron, enquanto IntelliJ é executado em uma JVM mais antiga
+* Facilidade de múltiplas janelas ao codificar
+
+== Revisão da Aula 1 (Autoboxing, final e enums)
+
+== !
+image::kahoot.jpg[background,size=contain]
+
+== Classe Avaliador
+* Operadores Aritméticos, Lógicos e Matemáticos
+*Condicionais (if, else, switch)
+
+== Classe Menu
+* Laços de Repetição (for, while, do-while)
+
+== Informações adicionais [Essencial]
+* link:https://www.oracle.com/java/technologies/javase-downloads.html[Java JDK]
+* link:https://www.jetbrains.com/idea/download/#section=windows[IntelliJ]
+
+== Informações adicionais [Opcional]
+* link:https://www.udemy.com/course/introducao-ao-java-fundamentos-para-logica-de-programacao/[Introdução ao Java - Fundamentos Para Lógica de Programação]
+
+== !
+image::the-end.png[height="540"]
