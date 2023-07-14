@@ -8,7 +8,7 @@
 :revealjs_plugin_zoom: enabled
 :customcss: customcss.css
 
-= Coding Tank (Aula 2)
+= Coding Tank (2)
 
 == Agenda
 * Questionário VARK
@@ -17,6 +17,8 @@
 * Revisão da Aula 1 (Autoboxing, final e enums)
 * Kahoot (Variáveis e Tipos primitivos)
 * Operadores Aritméticos, Lógicos e Matemáticos
+
+== Agenda
 * Condicionais (if, else, switch)
 * Laços de Repetição (for, while, do-while)
 * Kahoot (Operadores)
@@ -72,7 +74,6 @@
 * Gratuito
 
 === IntelliJ:
-* Amigável para iniciantes
 * Autocompletar de código
 * Menor curva de aprendizado
 * IDE preferido por desenvolvedores Java novos e experientes
@@ -83,10 +84,9 @@
 === VSCode:
 * Bom para trabalhar em um único arquivo ou coisas menores
 * Muitas extensões para transformá-lo em uma IDE completa
-* Não é tão popular quanto o IntelliJ (Para Java)
+* Não é tão popular quanto o IntelliJ (Java)
 * Debugger não tão bom quanto o IntelliJ
 * Funcionalidade de compartilhamento ao vivo
-* Construído em cima de uma plataforma Electron, enquanto IntelliJ é executado em uma JVM mais antiga
 * Facilidade de múltiplas janelas ao codificar
 
 == Revisão da Aula 1 (Autoboxing, final e enums)
@@ -96,16 +96,17 @@ image::kahoot.jpg[background,size=contain]
 
 == Classe Avaliador
 * Operadores Aritméticos, Lógicos e Matemáticos
-*Condicionais (if, else, switch)
+* Condicionais (if, else, switch)
 
 == Classe Menu
 * Laços de Repetição (for, while, do-while)
 
-== Informações adicionais [Essencial]
+== Referências
+* link:https://confluence.atlassian.com/confbr1/configurando-a-variavel-java_home-no-windows-933709538.html[Configurando a variável JAVA_HOME no Windows]
 * link:https://www.oracle.com/java/technologies/javase-downloads.html[Java JDK]
 * link:https://www.jetbrains.com/idea/download/#section=windows[IntelliJ]
 
-== Informações adicionais [Opcional]
+== Material Complementar
 * link:https://www.udemy.com/course/introducao-ao-java-fundamentos-para-logica-de-programacao/[Introdução ao Java - Fundamentos Para Lógica de Programação]
 
 == !
