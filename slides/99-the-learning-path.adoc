@@ -1,0 +1,33 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+= The learning path
+
+== 1. Youngling
+* link:https://www.youtube.com/watch?v=K6y6yd3gEXA&list=WL[No-Code Startup] - FlutterFlow Do Zero ao App
+
+== 2. Padawan
+* https://www.youtube.com/watch?v=P-AFAfFWams&list=WL&[YouTube] - Curso FlutterFlow Gratuito para Iniciantes
+
+== 3. Knight
+* link:https://www.youtube.com/watch?v=MaadSU46Tecl[YouTube] - Modelagem de Dados NoSQL | Firebase e FlutterFlow
+
+== 4. Master
+* link:https://www.udemy.com/course/aplicativos-com-flutterflow/[Udemy] - Criando aplicativos sem saber programar com FlutterFlow
+* link:https://www.udemy.com/course/crie-apps-incriveis-sem-digitar-codigo-c-flutterflow-2023/[Udemy] - Crie apps incríveis sem digitar código com FlutterFlow
+
+== 5. Council Member
+* link:https://www.youtube.com/watch?v=-KwUQ4kNn4E[YouTube] - 10 Favorite FlutterFlow Tips & Tricks
+
+== 6. Master of the Order
+* link:https://www.udemy.com/course/launch-an-app-without-code/[Udemy] - Launch an App Without Code
+
+== 7. Grand Master
+* link:https://www.udemy.com/course/build-mobile-apps-without-coding-the-complete-guide/[Udemy] - Build Mobile Apps Without Coding - The Complete Guide
