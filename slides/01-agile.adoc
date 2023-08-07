@@ -13,8 +13,8 @@
 == Quem sou eu ?
 * Desenvolvedor de software desde 1999;
 * Arquiteto de software desde 2019;
-* Especialista em Java e .NET;
-* Cursando MBA em Arquitetura de Soluções;
+* Especialista em Java, .NET C# e TypeScript;
+* MBA em Arquitetura de Soluções;
 
 === Por que eu estou aqui ?
 * Compartilhar conhecimento;

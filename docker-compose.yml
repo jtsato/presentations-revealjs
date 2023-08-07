@@ -8,4 +8,4 @@ services:
       - ./slides/:/opt/slides/
       - ./docs/:/opt/output/
     environment:
-      INDEX: 01-agile.html
+      INDEX: coverage-and-mutation-testing.html

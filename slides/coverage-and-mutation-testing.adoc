@@ -1,0 +1,107 @@
+:backend: revealjs
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1
+:revealjs_theme: black
+:source-highlighter: highlightjs
+:imagesdir: images
+:revealjs_transition: convex
+:revealjs_plugin_zoom: enabled
+:customcss: customcss.css
+
+= Testes de Software: Cobertura de Código e Teste de Mutação
+
+== Quem sou eu ?
+* Desenvolvedor de software desde 1999;
+* Arquiteto de software desde 2019;
+* Especialista em Java, .NET C# e TypeScript;
+* MBA em Arquitetura de Soluções;
+* link:https://www.linkedin.com/in/jtsato/[https://www.linkedin.com/in/jtsato]
+
+== Código ruim 
+* Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
+* Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
+
+== O que podemos fazer ?
+* Previsibilidade arquitetural.
+* Maturidade em processo (papéis, regras e procedimentos bem definidos).
+* Práticas de refactoring, code review, pair e mob programming.
+* Testes com qualidade.
+
+== Liberte-se do medo de modificar o Código
+video::ycvaECDc31w[youtube,start=3860,end=4036,lang=pt,opts="cc_load_policy=1"]
+
+== Cobertura de Código
+* Representa a porcentagem de código executado durante os testes. 🕵️‍♂️
+* Foca na execução do código, não na qualidade do mesmo.
+* A avaliação surge quando afirmações (Asserts) são implementadas.
+** Expectativa(expected) vs Realidade(actual).
+
+== Desafios da busca por 100% de cobertura código
+* Por que buscar 100% de cobertura é questionável?
+** Não significa que não há mais bugs no código
+** Riscos de escrever testes inúteis
+
+== 100% de cobertura de código, é possível ?
+video::kScFczWbwRM[youtube,start=2451,end=2565,lang=pt,opts="cc_load_policy=1"]
+
+== Teoria das Janelas Quebradas e Cobertura de Código
+* Experimento de Philip Zimbardo sobre janelas quebradas
+* Paralelo com a cobertura de código
+
+== Introdução à "Cobertura de código refinado"
+* Definição de Refinar: fazer passar (um produto) por série de operações que lhe retiram impurezas, os excessos.
+
+== Cobertura de Código Refinado
+* Remoção de falsos positivos para tornar a cobertura mais significativa
+* Exemplos de falsos positivos (métodos trivial getter/setter, dispose, classes deserializadas, etc)
+
+== Benefícios da Cobertura de Código Refinado
+* Significado mais claro da cobertura de 100%
+* Redução do efeito (psicológico) das janelas quebradas
+* Uso da cobertura de forma mais apropriada 
+
+== Implementando a Cobertura de Código Refinado
+* Exclusão de código não testado conscientemente
+* Monitoramento e inspeção da cobertura em geral
+* Refatoração do que é considerado código refinado
+
+== Métricas
+image::lines-of-code.png[height="540"]
+
+== A Descoberta!
+image::the-iceberg.png[]
+
+== Teste de mutação ou Mutation Testing
+
+== O que é teste de mutação?
+* É o teste do teste.
+* Afere, se quando a implementação é alterada, algum teste falha (se falhar 👍🏼).
+* A alteração da implementação é feita pela ferramenta de mutação, criando outras versões (mutantes).
+
+== !
+image::thinking.png[]
+
+== !
+image::show-me.png[]
+
+== Ferramentas de teste de mutação
+* link:https://stryker-mutator.io[C#, Scala, Javascript: Stryker Mutator]
+* link:https://pitest.org[Java: PIT aka pitest]
+* link:https://mutmut.readthedocs.io/en/latest[Python: mutmut]
+* link:https://github.com/zimmski/go-mutesting[Go: mutesting]
+
+== Resumo
+* É usado para criar novos testes e avaliar a qualidade dos testes existentes;
+* Te faz um desenvolvedor melhor;
+* Pode simplificar a implementação;
+* Te ajuda a encontrar possibilidades não validadas;
+
+== Realidade
+- Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
+- Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
+
+== !
+image::kahoot.jpg[background,size=contain]
+
+== !
+image::the-end.png[height="540"]

@@ -17,7 +17,7 @@ image::stryker-man.png[height="540"]
 
 == O que podemos fazer ?
 * Previsibilidade arquitetural.
-* Maturidade em processo (papéis, regras e procedimentos são bem definidos).
+* Maturidade em processo (papéis, regras e procedimentos bem definidos).
 * Práticas de refactoring, code review, pair e mob programming.
 * Testes com qualidade.
 
