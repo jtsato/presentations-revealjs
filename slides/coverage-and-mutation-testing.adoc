@@ -101,7 +101,4 @@ image::show-me.png[]
 - Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
 
 == !
-image::kahoot.jpg[background,size=contain]
-
-== !
 image::the-end.png[height="540"]
