@@ -21,6 +21,26 @@
 * Causa mais problemas em produção, trazendo prejuízos financeiros e a imagem da marca.
 * Afasta bons desenvolvedores. 20% dos desenvolvedores saem de uma empresa devido ao código ruim (pesquisa: código fonte TV).
 
+== XGH - eXtreme Go Horse
+* Axioma  3: Quanto mais XGH você faz, mais precisará fazer.
+* Axioma  9: Seja autêntico, XGH não respeita padrões.
+* Axioma 10: Não existe refactoring, apenas rework. 
+* Axioma 16: Não tente remar contra a maré.
+* Axioma 21: Acostume-se ao sentimento de fracasso iminente.
+
+== Axioma 20: Teste é para os fracos
+image::peter-meme.png[]
+
+== Teoria das Janelas Quebradas
+* Experimento (1969) de Philip Zimbardo sobre janelas quebradas
+** Carro desprotegido colocado em duas áreas diferentes.
+** Local 1: Área problemática de Nova York.
+** Local 2: Bairro melhor na Califórnia.
+
+== Teoria das Janelas Quebradas
+* Paralelo com o código
+** Código ruim ou sem testes é como uma janela quebrada.
+
 == O que podemos fazer ?
 * Previsibilidade arquitetural.
 * Maturidade em processo (papéis, regras e procedimentos bem definidos).
@@ -30,23 +50,23 @@
 == Liberte-se do medo de modificar o Código
 video::ycvaECDc31w[youtube,start=3860,end=4036,lang=pt,opts="cc_load_policy=1"]
 
+== Escrevo testes. Mas e agora ? 🤷‍♂️🤷‍♀️
+
 == Cobertura de Código
 * Representa a porcentagem de código executado durante os testes. 🕵️‍♂️
 * Foca na execução do código, não na qualidade do mesmo.
 * A avaliação surge quando afirmações (Asserts) são implementadas.
 ** Expectativa(expected) vs Realidade(actual).
 
-== Desafios da busca por 100% de cobertura código
-* Por que buscar 100% de cobertura é questionável?
-** Não significa que não há mais bugs no código
-** Riscos de escrever testes inúteis
+== Cobertura de Código, quanto mais melhor ?
 
 == 100% de cobertura de código, é possível ?
 video::kScFczWbwRM[youtube,start=2451,end=2565,lang=pt,opts="cc_load_policy=1"]
 
-== Teoria das Janelas Quebradas e Cobertura de Código
-* Experimento de Philip Zimbardo sobre janelas quebradas
-* Paralelo com a cobertura de código
+== Desafios da busca por 100% de cobertura código
+* Por que buscar 100% de cobertura é questionável?
+** Não significa que não há mais bugs no código
+** Riscos de escrever testes inúteis
 
 == Introdução à "Cobertura de código refinado"
 * Definição de Refinar: fazer passar (um produto) por série de operações que lhe retiram impurezas, os excessos.
@@ -64,12 +84,16 @@ video::kScFczWbwRM[youtube,start=2451,end=2565,lang=pt,opts="cc_load_policy=1"]
 * Exclusão de código não testado conscientemente
 * Monitoramento e inspeção da cobertura em geral
 * Refatoração do que é considerado código refinado
+* Considerar a documentação da exclusão da cobertura de código
 
 == Métricas
 image::lines-of-code.png[height="540"]
 
 == A Descoberta!
 image::the-iceberg.png[]
+
+== Dilema da escolha
+image::matrix-blue-and-red-pills.png[]
 
 == Teste de mutação ou Mutation Testing
 
@@ -99,6 +123,9 @@ image::show-me.png[]
 == Realidade
 - Regra do escoteiro (deixar o código melhor do que estava antes de alterá-lo).
 - Manter um bom código e controlar o débito técnico é bom para a empresa e é bom para o desenvolvedor.
+
+== !
+image::kahoot.jpg[background,size=contain]
 
 == !
 image::the-end.png[height="540"]
