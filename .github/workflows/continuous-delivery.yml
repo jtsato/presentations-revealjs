@@ -46,7 +46,7 @@ jobs:
 
       - name: Start AsciiDoctor Container
         run: |
-          docker-compose -f docker-compose.yml up -d
+          docker compose -f docker compose.yml up -d
 
       - name: Wait for AsciiDoctor Container
         shell: bash
@@ -120,4 +120,4 @@ jobs:
       - name: Environment Teardown
         if: always()
         run: |
-          docker-compose -f docker-compose.yml down
+          docker compose -f docker compose.yml down
